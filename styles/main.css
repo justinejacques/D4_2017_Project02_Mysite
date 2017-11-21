@@ -1,0 +1,101 @@
+body{
+  background-color: #b3d1cf;
+  color: #ffffff;
+  margin : 0;
+}
+
+section{
+  max-width: 36em;
+  margin : 0 auto;
+  margin-top: 100px;
+}
+
+header{
+  background-color: #ffffff;
+  color: #b3d1cf;
+  padding: 200px;
+  position: relative;
+}
+
+header::after {
+  content : " ";
+  display : block;
+  width : 200px;
+  height : 200px;
+  position: absolute;
+  bottom: -50px;
+  left : 50%;
+  transform: translateX(-50%) rotate(45deg);
+  background-color: #ffffff;
+}
+
+footer{
+  background-color: #ffffff;
+  color: #b3d1cf;
+  padding: 5em;
+  position: relative;
+}
+
+footer a{
+  color: #b3d1cf;
+  text-decoration: none;
+}
+
+footer::before {
+  background-color: #ffffff;
+  content:" ";
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+
+.linklist {
+  list-style-type: none;
+}
+
+.linklist li {
+  margin : 0px;
+}
+
+.nastyadvert {
+  background-image: url(croquis.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 60vh;
+  position: relative;
+}
+
+.mywork{
+  background-color: #ffffff;
+  margin : 0;
+}
+
+.mywork ul {
+  list-style-type: none;
+  margin: 0;
+  background-color: #b3d1cf;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mywork li{
+  border: #b3d1cf solid 0.6em;
+  margin: 0;
+
+}
+
+.mywork img{
+  max-width: 300px;
+}
